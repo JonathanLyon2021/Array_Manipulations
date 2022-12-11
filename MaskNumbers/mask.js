@@ -8,4 +8,9 @@ const endNum = num.slice(-4);
 const maskNum =
       endNum.padStart(num.length, '*');
 
-// Output : maskNum returns (***********5541)
+      console.log(endNum);
+      console.log(maskNum);
+
+// Output : 
+// endNum returns (***********5541)
+// maskNum returns (5541)
